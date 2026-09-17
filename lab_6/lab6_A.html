@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #page {
+        background-color: rgb(172, 250, 224);
+        height: 450px;
+        /* width: 1300px; */
+        padding: 10px;
+    }
+
+    #header {
+        background-color: rgb(166, 42, 166);
+        height: 50;
+    }
+
+    #content {
+        background-color: orange;
+        height: 340px;
+        padding: 20px;
+        
+
+    }
+
+    .data{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .entry {
+        background-color: rgb(96, 93, 93);
+        /* width: 500px; */
+        margin: 10px;
+        padding: 10px;
+        /* width: 95%; */
+    }
+
+    #right {
+        float: right;
+        width: 500px;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(96, 96, 93);
+    }
+
+    #left {
+        /* background-color: rgb(96, 96, 93); */
+        float: left;
+        width: 55%;
+        /* height: 200px; */
+        /* padding: 20px; */
+    }
+
+    #footer {
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <div id="page">
+        page
+
+        <div id="header">
+            Header
+        </div>
+
+        <div id="content">
+            <div> content</div>
+            <div class="data">
+                <div id="left">
+                    <div class="entry">entry</div>
+                    <div class="entry">entry</div>
+                    <div class="entry">entry</div>
+                </div>
+
+                <div id="right">
+                    Sidebar
+                </div>
+            </div>
+        </div>
+        <div id="footer"> &copy; Darshan University - Rajkot</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L_13_C</title>
+
+    <style>
+        table {
+            font-size: 25px;
+        }
+
+        :focus {
+            /* border: 2px solid purple; */
+            border-color: rgb(249, 90, 249);
+            background-color: rgba(246, 93, 246, 0.427);
+        }
+
+        input:valid {
+            border-color: green;
+        }
+
+        input:invalid {
+            border-color: red;
+        }
+        .lorem1::selection{
+            background-color: yellow;
+            color: red;
+        }
+        .button:active{
+            color: white;
+            background-color: red;
+        }
+        .buttoon:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <table>
+                <tr class="email">
+                    <td align="right"><label> Emaill : </label></td>
+                    <td><input type="email" placeholder="entre email id"></td>
+                </tr>
+
+                <tr class="number">
+                    <td align="right"><label> Mobile Number : </label></td>
+                    <td><input type="tel" pattern="[0-9]{10}" placeholder="entre mobile number"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <br>
+    <div class="lorem1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum maxime optio aut recusandae est iste dolores
+        libero nesciunt vero minima, ipsa et voluptates. Cumque ipsum ut deleniti explicabo tempora expedita.
+    </div>
+
+    <br>
+    
+    <button class="button">submit</button>
+    <br>
+    <br>
+    <button class="buttoon">reset</button>
+</body>
+
+</html>

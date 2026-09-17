@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab9_B</title>
+</head>
+<style>
+    nav {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    /* .first{
+        margin-top: 30px
+    } */
+
+    #photo {
+        /* background-image: url("./simple-stylish-halfcolor-background-260nw-2658352251.webp"); */
+        background-image: url("./Lab_9_B.png");
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+    }
+
+    .B {
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+        border: 2px solid red;
+        padding: 9px 18px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .ancher {
+        padding: 10px;
+        /* margin-left: 50px; */
+        margin: 20px;
+        text-decoration: none;
+        /* margin-top: 30px; */
+
+    }
+
+    .div_ancher {
+        margin-top: 40px;
+        margin-left: 140px;
+    }
+
+    .search {
+        margin-top: 30px;
+        display: flex;
+        height: 45px;
+        margin-left: 360px;
+    }
+
+    .search input {
+        width: 150px;
+        padding: 3px;
+        border: none;
+        background-color: rgba(97, 194, 255, 0.36);
+        height: 39.5px;
+    }
+
+    .search button {
+        background-color: red;
+        padding: 3.8px 20px;
+        border: none;
+        color: white;
+    }
+
+    /* .work{
+        display: flex;
+        align-items: center ;
+    } */
+
+    .mywork {
+        /* width: 50%; */
+        padding: 50px;
+    }
+
+    .company {
+        display: flex;
+        margin: 50px;
+        padding: 0px;
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(171, 173, 173);
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .Hire_me {
+        border-radius: 20px;
+        padding: 5px;
+        width: 100px;
+        margin-top: 30px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+    }
+
+    .about {
+        display: flex;
+        padding: 55px 75px;
+    }
+
+    .experience {
+        width: 25%;
+    }
+
+    .experience h2 {
+        font-size: 70px;
+        margin: 0px;
+    }
+
+    .experience p {
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 17px;
+    }
+
+    .cards {
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+        /* gap: 40; */
+        
+    }
+
+    .card {
+        background-color: black;
+        border-radius: 15px;
+        padding: 25px;
+        /* width: 25%; */
+        height: 20%;
+        align-items: center;
+        box-sizing: border-box;
+
+    }
+    .card2{
+        background-color: black;
+        border-radius: 15px;
+        padding: 25px;
+        /* width: 25%; */
+        width: 150px;
+        align-items: center;
+        box-sizing: border-box;
+
+    }
+
+    .icn {
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        background-color: red;
+        border: 2px;
+        border-radius: 70px;
+
+    }
+
+    .crdtxt {
+        color: rgb(181, 183, 184);
+    }
+    
+</style>
+
+
+<body>
+
+    <div id="photo">
+
+        <!-- </div> -->
+        <nav class="first">
+            <div class="B">
+                B.
+            </div>
+
+            <!-- <div class="ancher">
+            <a href="">Home</a>
+            &nbsp;  &nbsp;   
+            <a href="">My Intro</a>
+             &nbsp;  &nbsp;  
+            <a href="">Services</a>
+             &nbsp;  &nbsp;    
+            <a href="">Pages ▼</a>
+             &nbsp;  &nbsp;   
+            <a href="">Contact</a>
+        </div> -->
+
+            <div class="div_ancher">
+                <a href="" class="ancher">Home</a>
+                &nbsp; &nbsp;
+                <a href="" class="ancher">My Intro</a>
+                &nbsp; &nbsp;
+                <a href="" class="ancher">Services</a>
+                &nbsp; &nbsp;
+                <a href="" class="ancher">Pages ▼</a>
+                &nbsp; &nbsp;
+                <a href="" class="ancher">Contact</a>
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Enter Keyord....">
+                <button>Search</button>
+            </div>
+        </nav>
+
+        <section class="work">
+            <div class="mywork">
+                <p>Hi, I'm Mary Ateer</p>
+                <h1>DESIGNER</h1>
+                <p>
+                    I love to work in UI/UX designing.
+                    I always try my best to make <br>
+                    good UI with the best UX.
+                </p>
+                <button class="Hire_me">
+                    Hire Me
+                </button>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="company">
+        <div>Paypal</div>
+        <div>Google</div>
+        <div>Samsang</div>
+        <div>Lenovo</div>
+        <div>Amazon</div>
+    </section>
+
+    <section class="about">
+
+        <div class="experience">
+            <h2>22</h2>
+
+            <p>
+                Years of Experience <br>Working
+            </p>
+        </div>
+
+        <div class="details">
+            <div>
+                <h2>I'm a designer & developer with a passion for <br> web design</h2>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icn">
+                        &nbsp; 💡
+                    </div>
+
+                    <h4 class="crdtxt">Creative Design</h4>
+
+                    <p class="crdtxt">Explore More →</p>
+                </div>
+
+                &nbsp; &nbsp; &nbsp;
+
+                <div class="card2" style="background-color: rgb(225, 249, 249);">
+                    <div class="icn">
+                        &nbsp; 💻
+                    </div>
+
+                    <h4 class="crdtxt">Web Design</h4>
+
+                </div>
+
+                &nbsp; &nbsp; &nbsp;
+
+                <div class="card2" style="background-color: rgb(225, 249, 249);">
+                    <div class="icn">
+                        &nbsp; ▱
+                    </div>
+
+                    <h4 class="crdtxt">Brand Identity</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.table{
+    border: 2px solid black;
+    height: 650px;
+    width: 100%;
+}
+.header{
+    height: 4px;
+}
+.footer{
+    height:4px ;
+}
+</style>
+
+
+<body>
+    <div>
+        <table class="table" border="1">
+            <tr>
+                <td colspan="6">
+                    <div class="black"></div>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5">
+                    <div class="left">HTML <br> website <br> layout</div>
+                </td>
+                <td colspan="4">
+                    <div class="header">Header</div>
+                </td>
+                <td rowspan="5">
+                    <div class="right"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">
+                    <div class="navigation">Navigation</div>
+                </td>
+                <td rowspan="3" colspan="2">
+                    <div class="content">content</div>
+                </td>
+                <td rowspan="2">
+                    <div class="sidebar">Sidebar</div>
+                </td>
+            </tr>
+
+            <div class="content2"></div>
+
+            <tr>
+                <td colspan="4">
+                    <div class="footer">Footer</div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="6">
+                    <div class="black"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+.main {
+    background-color: #020238;
+    height: 650px;
+    width: 820px;
+    margin-left: 320px;
+    padding: 20px;
+    gap: 100px;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.raw1 {
+    /* background-color: #020238; */
+    /* height: 600px; */
+    /* width: 720px; */
+    margin-left: 50px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+}
+.b1 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgb(132, 22, 187), rgb(97, 97, 216), rgb(144, 245, 144));
+}
+
+.b2 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(rgb(144, 144, 255));
+}
+
+.b3 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, orange, rgba(183, 82, 183, 0.919), rgba(102, 102, 242, 0.908));
+}
+
+
+/* ==============raw-2======================== */
+
+.raw2{
+    margin-left: 50px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.b4 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgba(252, 190, 75, 0.84),orange,rgb(236, 183, 84));
+}
+
+.b5 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgb(230, 94, 230), rgb(162, 132, 238),rgb(245, 124, 245));
+}
+
+.b6 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom left , purple , red , orange);
+}
+
+
+/* ==============raw-3======================== */
+
+.raw3{
+    margin-left: 50px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+}
+.b7 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgb(167, 70, 237) ,rgba(245, 174, 42, 0.674), rgb(102, 102, 237));
+}
+
+.b8 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to  right, rgb(255, 213, 0) , rgb(193, 183, 183));
+}
+
+.b9 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(rgb(252, 79, 117));
+}
+
+/* ================= raw-4 ===================== */
+
+.raw4{
+    margin-left: 50px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+}
+.b10 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgb(223, 246, 174) , rgba(211, 248, 133, 0.893) , rgb(211, 250, 126));
+}
+
+.b11 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom right, rgb(230, 94, 230), rgb(162, 132, 238),rgb(245, 124, 245));
+}
+
+.b12 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(rgba(239, 121, 37, 0.868) , rgb(244, 97, 29),rgb(214, 141, 39) );
+}
+
+/* ================= raw-5 ===================== */
+
+.raw5{
+    margin-left: 50px;
+    padding: 20px;
+    gap: 120px;
+    display: flex;
+    justify-content: center;
+}
+.b13 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom left, rgb(230, 94, 230), rgb(162, 132, 238),rgb(252, 224, 252));
+}
+
+.b14 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom left, rgb(167, 70, 237) ,rgba(245, 174, 42, 0.674), rgb(102, 102, 237));
+}
+
+.b15 {
+    height: 80px;
+    width: 120px;
+    border: 2px solid rgb(207, 206, 211);
+    border-radius: 7px;
+    background: linear-gradient(to bottom left , rgb(132, 22, 187), rgb(97, 97, 216), rgb(144, 245, 144));
+}
