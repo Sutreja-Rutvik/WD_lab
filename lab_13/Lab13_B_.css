@@ -1,0 +1,26 @@
+main{
+    padding: 70px;
+    background: linear-gradient(to bottom  ,rgb(211, 232, 241), rgba(244, 206, 212, 0.959),rgb(211, 232, 241));
+    height: 1000px;
+}
+.nav{
+    height: 100px;
+    width: 30px;
+}
+.photo{
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+}
+.ONE{
+    background-color: rgb(201, 205, 205);
+    /* background-color: aliceblue; */
+    width: 650px;
+    height: 850px;
+    padding: 40px;
+}
+.men{
+    height:150px ;
+    width: 50px;
+    margin: 40px 20px ;
+}
